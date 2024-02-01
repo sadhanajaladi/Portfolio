@@ -1,0 +1,115 @@
+nav
+{
+    background:black;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color:white;
+}
+label.heading
+{
+    color:black;
+    font-size: 25px;
+    line-height:30px;
+    padding: 0 40px;
+    font-family: monospace;
+    font-weight: bold;
+}
+nav ul
+{
+    float: right;
+    margin-right: 40px;
+    
+}
+
+
+#home
+{
+ background-color:white;
+ height: 634px;
+}
+#image
+{
+background-color: blueviolet;
+height: 310px;
+width: 23%;
+margin-top: 80px;
+margin-left:360px;
+border-radius: 150px;
+background-image:url(WhatsApp\ Image\ 2024-01-24\ at\ 7.53.43\ PM.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#text
+{
+background-color: transparent;
+height: 180px;
+width: 25%;
+margin-left: 700px;
+margin-top:-280px ;
+padding-bottom: 25px;
+
+}
+#disk1
+{
+   
+  background-color: rgb(33, 207, 97);
+width: 7%;
+margin-top: 80px;
+margin-left: 640px;
+ height: 90px;
+ border-radius: 60px;
+ text-align: center;
+ display: flex;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease; 
+border: 1px solid black;
+}
+#disk1:hover 
+{
+    background-color: white;
+}
+
+#disk3
+{
+background-color: rgb(23, 203, 167);
+width: 7%;
+margin-left: 800px;
+margin-top: -90px;
+height: 90px;
+border-radius: 60px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+}
+#disk3:hover 
+{
+    background-color: white;
+}
+#disk4
+{   background-color: rgb(223, 52, 192);
+    width: 7%;
+    margin-left: 970px;
+    margin-top: -90px;
+    height: 90px;
+    border-radius: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+#disk4:hover 
+{
+    background-color: white;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
