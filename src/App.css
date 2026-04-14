@@ -1,0 +1,197 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #629ed9;
+  color: #000; /* 👈 all text black */
+}
+
+/* Navbar */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 50px;
+  background: #e0f2fe;
+}
+
+/* Logo */
+.header h2 {
+  margin: 0;
+  color: #000;
+  font-size: 26px; /* 👈 medium-large */
+}
+
+/* Nav container */
+.header nav {
+  display: flex;
+  gap: 30px;
+}
+
+/* Nav links */
+.header nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+/* Hover */
+.header nav a:hover {
+  background: #dbeafe;
+  color: #6366f1;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #fef9c3;
+  margin: 20px;
+  border-radius: 16px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #000;
+}
+
+.hero p {
+  font-size: 18px; /* 👈 medium */
+}
+
+/* Sections */
+section {
+  padding: 80px 60px;
+  margin: 40px 20px;
+  border-radius: 16px;
+}
+
+/* Section Headings */
+section h2 {
+  font-size: 28px; /* 👈 medium-large */
+  margin-bottom: 15px;
+}
+
+/* Paragraph text */
+section p {
+  font-size: 17px; /* 👈 medium */
+}
+
+/* About */
+#about {
+  background: #fce7f3;
+}
+
+/* Skills */
+#skills {
+  background: #dcfce7;
+}
+
+/* Skills Grid */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Skill Boxes */
+.skill-box {
+  background: #F13E93;
+  color: #000;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.skill-box h3 {
+  font-size: 18px;
+}
+
+.skill-box p {
+  font-size: 16px;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Projects */
+#projects {
+  background: #CFECF3;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  transition: 0.3s;
+  color: #000;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact Container */
+#contact {
+  background: #ffe4e6;
+  margin: 40px 20px;      
+  padding: 60px 40px;     
+  border-radius: 16px;
+
+}
+.contact-container {
+  margin-top: 20px;
+}
+
+/* Contact text */
+.contact-container p {
+  font-size: 18px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* 👈 aligns emoji + text */
+}
+
+/* Links row */
+.contact-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+/* Link buttons */
+.contact-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.contact-links a:hover {
+  background: #dbeafe;
+  color: #6366f1;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #e0f2fe;
+  margin-top: 20px;
+  color: #000;
+}
